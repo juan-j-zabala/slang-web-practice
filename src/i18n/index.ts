@@ -1,1 +1,5 @@
-export const getI18n = () => {};
+export const getI18n = () => {
+  {
+    ("adios");
+  }
+};
