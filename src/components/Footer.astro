@@ -1,0 +1,78 @@
+---
+import Logo from "./Logo.astro"
+import Ubiqlogo from "../../public/UBIQLOGO.astro"
+import Instagram from "../../public/instagram.astro"
+import Reddit from "../../public/reddit.astro"
+import Github from "../../public/githublogo.astro"
+import Twitter from "../../public/twitterlog.astro"
+---
+
+<footer class="bg-gray-900">
+    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="md:flex md:justify-between ">
+          <div class="mb-6 flex flex-col">
+              <a href="https://premiosesland.com" class="flex items-center">
+                <Logo class="w-[360px] h-auto -mt-[70px]"/>
+              </a>
+          <div class="flex mt-8 justify-center gap-3">
+              <a href="#" class="text-gray-500 hover:text-white">
+                  <Twitter/>
+                  <span class="sr-only">Twitter page</span>
+              </a>
+              <a href="#" class="text-gray-500 hover:text-white">
+                  <Github/>
+                  <span class="sr-only">GitHub account</span>
+              </a>
+              <a href="#" class="text-gray-500 hover:text-white">
+                   <Instagram class="w-4 h-auto"/>
+                  <span class="sr-only">Instagram</span>
+              </a>
+              <a href="#" class="text-gray-500 hover:text-white">
+                  <Reddit class="w-4 h-auto"/>
+                  <span class="sr-only">Reddit</span>
+              </a>
+          </div>
+          </div>
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+              <div>
+                  <h2 class="mb-6 text-sm font-semibold uppercase text-white">Legal</h2>
+                  <ul class="text-gray-400 font-medium">
+                      <li class="mb-3">
+                          <a href="https://flowbite.com/" class="hover:underline">Aviso Legal</a>
+                      </li>
+                      <li>
+                          <a href="https://tailwindcss.com/" class="hover:underline">Privacidad</a>
+                      </li>
+                  </ul>
+              </div>
+              <div>
+                  <h2 class="mb-6 text-sm font-semibold uppercase text-white">Web Map</h2>
+                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                      <li class="mb-3">
+                          <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Home</a>
+                      </li>
+                      <li class="mb-3">
+                          <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Info</a>
+                      </li>
+                      <li>
+                          <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Archivo</a>
+                      </li>
+                  </ul>
+              </div>
+              <div>
+                  <h2 class="text-sm font-semibold  uppercase text-white">Priducido por:</h2>
+                  <ul class="text-gray-400 font-medium">
+                      <li class="mb-4">
+                        <Ubiqlogo/>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <hr class="my-6 sm:mx-auto border-gray-700 lg:my-8" />
+      <div class="sm:flex sm:items-center sm:justify-center">
+          <span class="text-sm sm:text-center text-gray-400"> © ESLAND 2021 - 2024 Todos los derechos reservados. <br> -esta no es la pagina web offical esta desarrollada con fines educativos</span>
+      </div>
+    </div>
+</footer>
+
